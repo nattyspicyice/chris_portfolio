@@ -17,3 +17,27 @@
     src: url(/fonts/Raleway-ExtraLight.ttf);
     font-family: "Raleway-ExtraLight";
 }
+
+body {
+    background: #333030;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Raleway-SemiBold";
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #8BBE38;
+    padding: 25px;
+    padding-top: 60px;
+}
