@@ -25,6 +25,7 @@ body {
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 #nav-links{
@@ -40,4 +41,40 @@ nav a {
     color: #8BBE38;
     padding: 25px;
     padding-top: 60px;
+}
+
+nav a:hover {
+    color: #bef664;
+}
+
+.sml-triangles {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    color: rgba(75, 69, 69, 0.25);
+}
+
+.big-triangles {
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    color: rgba(75, 69, 69, 0.5);
+}
+
+#sml-tri-up {
+    border-bottom: 150px solid rgba(75, 69, 69, 0.25);
+}
+
+#sml-tri-dwn {
+    border-top: 150px solid rgba(75, 69, 69, 0.25);
+}
+
+#big-tri-up {
+    border-bottom: 200px solid rgba(75, 69, 69, 0.25);
+}
+
+#big-tri-dwn {
+    border-top: 200px solid rgba(75, 69, 69, 0.25);
 }
