@@ -28,6 +28,20 @@ body {
     scroll-behavior: smooth;
 }
 
+.container {
+    width: 100%;
+    margin: 60px;
+}
+
+.buttons {
+    background: #333030;
+    border:solid 1px #8BBE38;
+    color:#8BBE38;
+    font-family: "Raleway-Light";
+    font-size: 25px;
+    padding: 10px 25px;
+}
+
 #nav-links{
     display: flex;
     justify-content: center;
@@ -77,4 +91,37 @@ nav a:hover {
 
 #big-tri-dwn {
     border-top: 200px solid rgba(75, 69, 69, 0.25);
+}
+
+#name {
+    width: 50%;
+    color: #8BBE38;
+    flex-wrap: wrap;
+}
+
+#chris-doyle{
+    font-family: "Raleway-SemiBold";
+    font-size: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+#tradesman {
+    font-family: "Raleway-ExtraLight";
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#abv-fold-icon {
+    width: 50%;
+}
+
+#abv-fold-resume-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
