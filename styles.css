@@ -29,7 +29,6 @@ body {
 }
 
 .container {
-    width: 100%;
     margin: 60px;
 }
 
@@ -64,64 +63,71 @@ nav a:hover {
 .sml-triangles {
     width: 0;
     height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
     color: rgba(75, 69, 69, 0.25);
 }
 
 .big-triangles {
     width: 0;
     height: 0;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
     color: rgba(75, 69, 69, 0.5);
 }
 
 #sml-tri-up {
-    border-bottom: 150px solid rgba(75, 69, 69, 0.25);
+    border-bottom: 100px solid rgba(75, 69, 69, 0.25);
 }
 
 #sml-tri-dwn {
-    border-top: 150px solid rgba(75, 69, 69, 0.25);
+    border-top: 100px solid rgba(75, 69, 69, 0.25);
 }
 
 #big-tri-up {
-    border-bottom: 200px solid rgba(75, 69, 69, 0.25);
+    border-bottom: 140px solid rgba(75, 69, 69, 0.25);
 }
 
 #big-tri-dwn {
-    border-top: 200px solid rgba(75, 69, 69, 0.25);
+    border-top: 140px solid rgba(75, 69, 69, 0.25);
 }
 
 #name {
-    width: 50%;
+    min-width: 50%;
     color: #8BBE38;
     flex-wrap: wrap;
+    display: flex;
+    align-content: center;
 }
 
 #chris-doyle{
     font-family: "Raleway-SemiBold";
     font-size: 45px;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 #tradesman {
     font-family: "Raleway-ExtraLight";
     font-size: 35px;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     justify-content: center;
 }
 
 #abv-fold-icon {
-    width: 50%;
+    min-width: 50%;
 }
 
 #abv-fold-resume-btn{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#abv-the-fold {
+    display: flex;
+    flex-wrap: wrap;
 }
