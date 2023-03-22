@@ -56,10 +56,10 @@ body {
     font-family: "Raleway-Light";
     background-color: #608328;
     color: #333030;
-    width: fit-content;
+    max-width: fit-content;
+    height: fit-content;
     padding: 8px;
-    margin: 15px;
-    border-radius: 2px;
+    border-radius: 2px;    
 }
 
 .skills:hover {
@@ -174,4 +174,56 @@ nav a:hover {
 
 #chris-doyle-icon {
     width: 420px;
+}
+
+#work-section {
+    display: flex;
+}
+
+#triangle-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 80px;
+}
+
+#skills-container {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px 15px;
+    padding: 5px;
+    margin-right: 80px;
+}
+
+.baby-triangles {
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    color:rgba(75, 69, 69, 0.25);
+    position: relative;
+}
+
+#lower-baby {
+    border-bottom: 200px solid rgba(75, 69, 69, 0.25);
+    top: 190px;
+    left: 120px;
+}
+
+#higher-baby {
+    border-bottom: 200px solid rgba(75, 69, 69, 0.25);
+    right: 180px;
+    top: 10px;
+}
+
+#father-triangle {
+    width: 0;
+    height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    color: rgba(75, 69, 69, 0.5);
+    border-bottom: 340px solid rgba(75, 69, 69, 0.5);
 }
