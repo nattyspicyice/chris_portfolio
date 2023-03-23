@@ -30,6 +30,8 @@ body {
 
 .container {
     margin: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons {
@@ -226,4 +228,30 @@ nav a:hover {
     border-right: 220px solid transparent;
     color: rgba(75, 69, 69, 0.5);
     border-bottom: 340px solid rgba(75, 69, 69, 0.5);
+}
+
+#banner {
+    font-family: "Raleway-Bold";
+    color: #8BBE38;
+    letter-spacing: 3px;
+    margin: 190px 0;
+    font-size: 50px;
+}
+
+.placeholder {
+    width: 400px;
+    height: 400px;
+    background: rgba(171, 174, 168, 0.558);
+}
+
+#work-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px 10px;
+    max-width: 1500px;
+}
+
+#bio-image{
+    width: 500px;
 }
