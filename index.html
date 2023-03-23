@@ -64,29 +64,34 @@
         <div class="placeholder"></div>
     </div>
     <div class="container" id="about-section">
-        <div>
-            <img src="/images/Chris-bio-oic.jpg" id="bio-image"/>
+        <div id="bio-image">
+            <img src="/images/Chris-bio-oic.jpg" id="bio-pic"/>
+            <!-- <div class="large-triangles" id="up-face-lrg-tri"></div>
+            <div class="large-triangles" id="dwn-face-lrg-tri"></div>
+            <div class="smaller-triangles" id="up-face-sml-tri"></div>
+            <div class="smaller-triangles" id="dwn-face-sml-tri"></div> -->
         </div>
-        <div>
+        <div id="bio">
             <p>
-                some text
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis, eros et commodo tempus, ipsum ipsum facilisis mauris, ac dignissim mi turpis a justo. Curabitur ut nunc vel elit sodales tempus vel nec nisi. Etiam maximus dictum eros eget gravida. Aliquam tristique orci varius lacinia rhoncus. Suspendisse non sapien semper, pellentesque mauris id, interdum nisl. Integer pharetra lacus vel orci dictum sodales. Morbi id dui ultrices, posuere nunc id, fermentum neque.
             </p>
         </div>
     </div>
     <div class="container" id="contact-section">
-        <div>
+        <div id="get-in-touch">
             <h1>GET IN TOUCH</h1>
         </div>
-        <div>
+        <div id="form-section">
             <form>
-                <label for="name">Name:</label><input name="name" type="text" required/>
-                <label for="email">Email:</label><input name="email" type="email" required/>
-                <label for="phone">Phone:</label><input name="phone" type="tel" required/>
-                <label for="message">Message:</label><input name="message" type="text" required/>
+                <label for="name">NAME:</label><input name="name" type="text" required/>
+                <label for="email">EMAIL:</label><input name="email" type="email" required/>
+                <label for="phone">PHONE:</label><input name="phone" type="tel" required/>
+                <label for="message">MESSAGE:</label><textarea id="message-area"></textarea>
+                <!-- <input name="message" type="text" id="message-area" required/>   -->
             </form>
-            <div>
-                <input type="submit" class="buttons"/>
-            </div>
+            <div id="submit-btn-div">
+                <button class="buttons">SUBMIT</button>
+            </div>  
         </div>
     </div>
 </body>

@@ -250,8 +250,147 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 100px 10px;
     max-width: 1500px;
+    margin-bottom: 200px;
+}
+
+#about-section {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+#bio-pic{
+    width: 500px;
 }
 
 #bio-image{
-    width: 500px;
+    width: 50%;
+    display: flex;
+}
+
+#bio {
+    width: 50%;
+    font-family: "Raleway-Light";
+    font-size: 25px;
+    color: #608328;
+    display: flex;
+    justify-content: center;
+}
+
+#bio p {
+    width: 70%;
+}
+
+.large-triangles{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    color: rgba(75, 69, 69, 0.5);
+    position: relative;
+}
+
+.smaller-triangles {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    color: rgba(75, 69, 69, 0.25);
+    position: relative;
+}
+
+#up-face-lrg-tri{
+    border-bottom: 200px solid rgba(75, 69, 69, 0.5);
+    z-index: -1;
+    bottom: 160px;
+    right: 120px
+}
+
+#dwn-face-lrg-tri{
+    border-top: 200px solid rgba(75, 69, 69, 0.5);
+    z-index: -1;
+    bottom: 620px;
+    left: 450px;
+}
+
+#up-face-sml-tri{
+    border-bottom: 100px solid rgba(75, 69, 69, 0.25);
+    z-index: -1;
+    bottom: 600px;
+    left: 550px;
+}
+
+#dwn-face-sml-tri{
+    border-top: 100px solid rgba(75, 69, 69, 0.25);
+    z-index: -1;
+    bottom: 800px;
+    right: 100px
+}
+
+#contact-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#get-in-touch{
+    font-family: "Raleway-Bold";
+    color: #8BBE38;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px;
+}
+
+#form-section{
+    width: 60%;
+    border: 3px solid #8BBE38;
+}
+
+#form-section form {
+    font-family: "Raleway-Light";
+    color: #8BBE38;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form input, form textarea {
+    background: #4B4545;
+    width: 100%;
+    padding: 5px 15px 5px;
+    margin: 10px 0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-size: 16pt;
+    color: #beb9b9;
+    font-family: "Raleway-Light";
+}
+
+input:focus{
+    outline-color:#a9e745;
+    outline-style: solid;
+}
+
+#message-area {
+    padding-bottom: 160px;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
+
+#message-area:focus {
+    overflow-wrap: break-word;
+    overflow: scroll;
+    outline-color:#a9e745;
+    outline-style: solid;
+}
+
+
+#submit-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
 }
