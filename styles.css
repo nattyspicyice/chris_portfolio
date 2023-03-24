@@ -141,7 +141,7 @@ nav a:hover {
 
 #chris-doyle{
     font-family: "Raleway-SemiBold";
-    font-size: 45px;
+    font-size: 60px;
     min-width: 100%;
     display: flex;
     justify-content: center;
@@ -150,7 +150,7 @@ nav a:hover {
 
 #tradesman {
     font-family: "Raleway-ExtraLight";
-    font-size: 35px;
+    font-size: 45px;
     min-width: 100%;
     display: flex;
     justify-content: center;
@@ -241,8 +241,50 @@ nav a:hover {
 .placeholder {
     width: 400px;
     height: 400px;
-    background: rgba(171, 174, 168, 0.558);
+    background: rgba(203, 252, 153, 0.811);
+    position: relative;
+    display: inline-block;
 }
+
+.pic-container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.work-imgs {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.pic-container:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: rgba(3, 3, 3, 0.656);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    font-family: "Raleway-Light";
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 #work-grid {
     display: flex;
@@ -372,6 +414,14 @@ form input, form textarea {
 input:focus{
     outline-color:#a9e745;
     outline-style: solid;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #4B4545 inset !important;
+    -webkit-text-fill-color: #beb9b9 !important;
 }
 
 #message-area {
