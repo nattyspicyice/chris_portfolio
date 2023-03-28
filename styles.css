@@ -178,7 +178,7 @@ nav a:hover {
     width: 420px;
 }
 
-#work-section {
+#skills-section {
     display: flex;
 }
 
@@ -191,6 +191,7 @@ nav a:hover {
 }
 
 #skills-container {
+    scroll-margin-top: 15rem;
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -296,6 +297,7 @@ nav a:hover {
 }
 
 #about-section {
+    scroll-margin-top: 12rem;
     margin-left: 160px;
     margin-right: 160px;
 }
